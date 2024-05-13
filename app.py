@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('modelx.pkl', 'rb'))
 
 st.header('Predict Stroke :brain:')
 st.text('Yes: 1 and No: 0')
